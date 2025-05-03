@@ -1,0 +1,86 @@
+body {
+    margin: 0;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    background: #fdfdfd;
+    text-align: center;
+    color: #444;
+  }
+  
+  .game-wrapper {
+    padding: 40px 20px;
+  }
+  
+  h1 {
+    font-size: 2.2rem;
+    margin-bottom: 30px;
+    color: #5a5a5a;
+  }
+  
+  .circle-bg {
+    background: #cce0f7;
+    border-radius: 50%;
+    width: 320px;
+    height: 320px;
+    margin: 0 auto;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .choice {
+    border: none;
+    background: none;
+    text-align: center;
+    margin: 10px;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+  }
+  
+  .choice img {
+    width: 80px;
+    height: 80px;
+  }
+  
+  .choice p {
+    margin: 5px 0 0;
+    font-weight: bold;
+    text-transform: capitalize;
+    color: #555;
+  }
+  
+  .choice:hover {
+    transform: scale(1.1);
+  }
+  
+  .results {
+    margin-top: 30px;
+  }
+  
+  .results p {
+    font-size: 1.2rem;
+    margin: 8px 0;
+  }
+  
+  #outcome {
+    font-size: 1.8rem;
+    margin-top: 15px;
+    color: #2c7;
+  }
+  
+  #reset {
+    margin-top: 20px;
+    padding: 10px 25px;
+    font-size: 1rem;
+    background: #6faef7;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  #reset:hover {
+    background: #589be0;
+  }
+  

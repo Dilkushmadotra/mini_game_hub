@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Rock Paper Scissors</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="game-wrapper">
+    <h1>✊ ✋ ✌️ Rock Paper Scissors</h1>
+    <div class="circle-bg">
+      <button class="choice" data-choice="rock">
+        <img src="https://em-content.zobj.net/thumbs/120/apple/354/raised-fist_270a.png" alt="Rock">
+        <p>rock</p>
+      </button>
+      <button class="choice" data-choice="paper">
+        <img src="https://em-content.zobj.net/thumbs/120/apple/354/raised-hand_270b.png" alt="Paper">
+        <p>paper</p>
+      </button>
+      <button class="choice" data-choice="scissors">
+        <img src="https://em-content.zobj.net/thumbs/120/apple/354/victory-hand_270c.png" alt="Scissors">
+        <p>scissors</p>
+      </button>
+    </div>
+
+    <div class="results">
+      <p id="player-choice"></p>
+      <p id="computer-choice"></p>
+      <h2 id="outcome"></h2>
+    </div>
+
+    <button id="reset">Play Again</button>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

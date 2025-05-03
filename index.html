@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mini Game Hub</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <h1>🎮 Mini Game Hub</h1>
+  </header>
+
+  <main class="game-grid">
+    <div class="game-card" onclick="navigateToGame('tic-tac-toe/index.html')">
+      <img src="Assets/tic tac toe.jpg" alt="Tic Tac Toe" />
+      <h3>Tic Tac Toe</h3>
+    </div>
+
+    <div class="game-card" onclick="navigateToGame('snake game/index.html')">
+      <img src="assets/snake.jpeg" alt="Snake Game" />
+      <h3>Snake</h3>
+    </div>
+
+    <div class="game-card" onclick="navigateToGame('memory_match/index.html')">
+      <img src="assets/memory match.jpeg" alt="Memory Game" />
+      <h3>Memory Match</h3>
+    </div>
+
+    <div class="game-card" onclick="navigateToGame('stone_paper/index.html')">
+      <img src="assets/rock-paper-scissors.jpg" alt="Rock Paper Scissors" />
+      <h3>Rock Paper Scissors</h3>
+    </div>
+
+    <div class="game-card" onclick="navigateToGame('Quiz_game/index.html')">
+      <img src="assets/quiz-game.jpg" alt="Quiz Game" />
+      <h3>Quiz Game</h3>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
